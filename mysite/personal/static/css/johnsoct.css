@@ -4,15 +4,16 @@ body {
 
 .fake-well {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 100%;
     padding: 8px 16px;
-    background-color: lightgray;
+    background-color: red;
     border: 1px solid darkgray;
     border-radius: 4px;
     box-shadow: inset 0 0 10px darkgray
 }
+
 
 input {
     width: 100%;

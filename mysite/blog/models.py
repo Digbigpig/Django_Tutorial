@@ -1,8 +1,8 @@
 from django.db import models
 
 # This creates a database table.
-class Post(models.model):
-    title = models.CharField()     # These are columns, find the data type using django docs.
+class Post(models.Model):
+    title = models.CharField(max_length=255)     # These are columns, find the data type using django docs.
     body = models.TextField()
     date = models.DateTimeField()
 
